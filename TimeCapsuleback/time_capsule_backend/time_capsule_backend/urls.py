@@ -20,6 +20,7 @@ from django.urls import path, include
 from capsules.views import CapsuleViewSet
 
 urlpatterns = [
+    path('', lambda request: HttpResponse("Welcome to the Time Capsule App! 🎉")),
     path('admin/', admin.site.urls),
     path('api/', include('capsules.urls')),
 ]

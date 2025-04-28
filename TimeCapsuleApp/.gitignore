@@ -1,0 +1,18 @@
+
+venv/
+
+.env
+
+Time Capsule/
+
+db.sqlite3
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.idea/
+.vscode/
+*.log
+
+.DS_Store
